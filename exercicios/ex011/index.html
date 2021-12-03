@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentees ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/musica.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Esta video esta hospedado no meu proprio servidor.</p>
+    <video width="300" poster="video/morangoimg.jpg" controls>
+        <source src="video/Video-m4v.m4v" type="video/mp4">
+        <source src="video/Video-webm.webm" type="video/webm">
+        <source src="video/video1.mp4" type="video/mp4">
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&color=ffffff" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/197093965">Reel 2016</a> from <a href="https://vimeo.com/wabbla">Alvise Zennaro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    
+</body>
+</html>
