@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, aquamarine, darkgreen);
+    padding: none;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 2px 2px rgb(0 0 0 / 38%);
+}
+
+.titulo-1{
+    color: darkgreen;
+    text-align: left;
+    margin: 10px;
+}
+
+.texto-1 {
+    color: black;
+    text-align: justify;
+    padding-inline: 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgba(127, 255, 212, 0.315), white);
+    color: darkgreen;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+iframe {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+article{
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+h3 {
+    background-color: lightgreen;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding-inline: 10px;
+}
+
+strong {
+    color: darkgreen;
+}
+
+footer {
+    background-color: darkgreen;
+}
+

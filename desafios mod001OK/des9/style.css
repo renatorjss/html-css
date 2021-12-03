@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: dimgray;
+}
+
+h1{
+    color: ghostwhite;
+}
+
+a {
+    color: white;
+}
